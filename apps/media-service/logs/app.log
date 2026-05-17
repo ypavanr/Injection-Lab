@@ -1,0 +1,5 @@
+{"log.level":"info","@timestamp":"2026-05-17T11:08:12.922Z","process.pid":70362,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"media-service listening at http://127.0.0.1:3005"}
+{"log.level":"info","@timestamp":"2026-05-17T11:14:04.110Z","process.pid":74438,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"media-service listening at http://127.0.0.1:3005"}
+{"log.level":"info","@timestamp":"2026-05-17T11:18:52.505Z","process.pid":78015,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"media-service listening at http://127.0.0.1:3005"}
+{"log.level":"info","@timestamp":"2026-05-17T11:21:51.441Z","process.pid":80935,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"media-service listening at http://127.0.0.1:3005"}
+{"log.level":"info","@timestamp":"2026-05-17T13:39:53.631Z","process.pid":58259,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","service":"media-service","host":"127.0.0.1","port":3005,"message":"media-service listening at http://127.0.0.1:3005"}

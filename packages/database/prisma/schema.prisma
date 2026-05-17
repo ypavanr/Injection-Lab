@@ -1,0 +1,85 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [vector]
+}
+
+model User {
+  id       Int       @id @default(autoincrement())
+  username String    @unique
+  email    String    @unique
+  password String    // VULN: MD5 hashing
+  role     String    @default("subscriber") // admin, editor, author, subscriber
+  bio      String?   // VULN: Stored XSS via dangerouslySetInnerHTML
+  website  String?   // VULN: Link injection / XSS
+  posts    Post[]
+  comments Comment[]
+}
+
+model Post {
+  id              Int       @id @default(autoincrement())
+  title           String
+  slug            String    @unique
+  content         String    // VULN: Unsafe Markdown rendering
+  post_ai_content String?   // VULN: AI Crawler poisoning payload
+  excerpt         String?   // VULN: Malicious HTML rendering
+  status          String    @default("draft") // published, draft
+  authorId        Int
+  author          User      @relation(fields: [authorId], references: [id])
+  comments        Comment[]
+  tags            Tag[]
+  metadata        Json?     // VULN: Malicious metadata injection target (title, og tags)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+}
+
+model Comment {
+  id        Int      @id @default(autoincrement())
+  content   String   // VULN: Stored XSS, Link injection, RAG Poisoning payload
+  postId    Int
+  post      Post     @relation(fields: [postId], references: [id])
+  authorId  Int?     // null if guest
+  author    User?    @relation(fields: [authorId], references: [id])
+  guestName String?
+  guestUrl  String?  // VULN: SEO Spam
+  status    String   @default("pending") // approved, pending, spam
+  createdAt DateTime @default(now())
+}
+
+model Tag {
+  id    Int    @id @default(autoincrement())
+  name  String @unique
+  posts Post[]
+}
+
+model Media {
+  id          Int      @id @default(autoincrement())
+  filename    String
+  url         String
+  description String?  // VULN: Malicious HTML rendering
+  createdAt   DateTime @default(now())
+}
+
+model Embedding {
+  id             Int                     @id @default(autoincrement())
+  content        String                  // The chunk text
+  embedding      Unsupported("vector")?  // pgvector extension
+  sourceType     String                  // "post" or "comment"
+  sourceId       Int
+  trust_score    Float?                  // Unused in vulnerable mode
+  ingestionTime  DateTime                @default(now())
+}
+
+model KnowledgeGraph {
+  id        Int      @id @default(autoincrement())
+  subject   String
+  predicate String
+  object    String
+  sourceId  Int      // Post ID
+  createdAt DateTime @default(now())
+}

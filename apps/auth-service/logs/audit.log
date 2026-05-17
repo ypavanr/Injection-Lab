@@ -1,0 +1,2 @@
+{"timestamp":"2026-05-17T13:41:08.708Z","actor":"admin","action":"login","target":"1","before":null,"after":{"role":"admin"},"ip":"127.0.0.1","ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"timestamp":"2026-05-17T13:42:31.467Z","actor":"admin","action":"login","target":"1","before":null,"after":{"role":"admin"},"ip":"127.0.0.1","ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"}

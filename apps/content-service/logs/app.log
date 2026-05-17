@@ -1,0 +1,5 @@
+{"log.level":"info","@timestamp":"2026-05-17T11:08:13.146Z","process.pid":70537,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"content-service listening at http://127.0.0.1:3003"}
+{"log.level":"info","@timestamp":"2026-05-17T11:14:04.146Z","process.pid":74622,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"content-service listening at http://127.0.0.1:3003"}
+{"log.level":"info","@timestamp":"2026-05-17T11:18:52.564Z","process.pid":77876,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"content-service listening at http://127.0.0.1:3003"}
+{"log.level":"info","@timestamp":"2026-05-17T11:21:51.414Z","process.pid":80671,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"content-service listening at http://127.0.0.1:3003"}
+{"log.level":"info","@timestamp":"2026-05-17T13:39:53.705Z","process.pid":58205,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","service":"content-service","host":"127.0.0.1","port":3003,"message":"content-service listening at http://127.0.0.1:3003"}

@@ -1,0 +1,5 @@
+{"log.level":"info","@timestamp":"2026-05-17T11:08:13.023Z","process.pid":70458,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"comments-service listening at http://127.0.0.1:3004"}
+{"log.level":"info","@timestamp":"2026-05-17T11:14:04.185Z","process.pid":74518,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"comments-service listening at http://127.0.0.1:3004"}
+{"log.level":"info","@timestamp":"2026-05-17T11:18:52.603Z","process.pid":78050,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"comments-service listening at http://127.0.0.1:3004"}
+{"log.level":"info","@timestamp":"2026-05-17T11:21:51.452Z","process.pid":80818,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"comments-service listening at http://127.0.0.1:3004"}
+{"log.level":"info","@timestamp":"2026-05-17T13:39:53.687Z","process.pid":58134,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","service":"comments-service","host":"127.0.0.1","port":3004,"message":"comments-service listening at http://127.0.0.1:3004"}

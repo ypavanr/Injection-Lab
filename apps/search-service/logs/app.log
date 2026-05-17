@@ -1,0 +1,5 @@
+{"log.level":"info","@timestamp":"2026-05-17T11:08:12.954Z","process.pid":70678,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"search-service listening at http://127.0.0.1:3006"}
+{"log.level":"info","@timestamp":"2026-05-17T11:14:04.076Z","process.pid":74486,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"search-service listening at http://127.0.0.1:3006"}
+{"log.level":"info","@timestamp":"2026-05-17T11:18:52.542Z","process.pid":78075,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"search-service listening at http://127.0.0.1:3006"}
+{"log.level":"info","@timestamp":"2026-05-17T11:21:51.250Z","process.pid":80814,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"search-service listening at http://127.0.0.1:3006"}
+{"log.level":"info","@timestamp":"2026-05-17T13:39:53.070Z","process.pid":57960,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","service":"search-service","host":"127.0.0.1","port":3006,"message":"search-service listening at http://127.0.0.1:3006"}

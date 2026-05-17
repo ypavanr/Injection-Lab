@@ -1,0 +1,5 @@
+{"log.level":"info","@timestamp":"2026-05-17T11:08:12.900Z","process.pid":70483,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"user-service listening at http://127.0.0.1:3002"}
+{"log.level":"info","@timestamp":"2026-05-17T11:14:04.099Z","process.pid":74612,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"user-service listening at http://127.0.0.1:3002"}
+{"log.level":"info","@timestamp":"2026-05-17T11:18:52.591Z","process.pid":78096,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"user-service listening at http://127.0.0.1:3002"}
+{"log.level":"info","@timestamp":"2026-05-17T11:21:51.401Z","process.pid":80959,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"user-service listening at http://127.0.0.1:3002"}
+{"log.level":"info","@timestamp":"2026-05-17T13:39:53.350Z","process.pid":58159,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","service":"user-service","host":"127.0.0.1","port":3002,"message":"user-service listening at http://127.0.0.1:3002"}

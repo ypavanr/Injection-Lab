@@ -1,0 +1,5 @@
+{"log.level":"info","@timestamp":"2026-05-17T11:08:12.969Z","process.pid":70579,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"auth-service listening at http://127.0.0.1:3001"}
+{"log.level":"info","@timestamp":"2026-05-17T11:14:04.190Z","process.pid":74528,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"auth-service listening at http://127.0.0.1:3001"}
+{"log.level":"info","@timestamp":"2026-05-17T11:18:52.556Z","process.pid":77943,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"auth-service listening at http://127.0.0.1:3001"}
+{"log.level":"info","@timestamp":"2026-05-17T11:21:51.366Z","process.pid":80825,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","message":"auth-service listening at http://127.0.0.1:3001"}
+{"log.level":"info","@timestamp":"2026-05-17T13:39:53.115Z","process.pid":58098,"host.hostname":"PAVANs-MacBook-Pro.local","ecs.version":"8.10.0","service":"auth-service","host":"127.0.0.1","port":3001,"message":"auth-service listening at http://127.0.0.1:3001"}
