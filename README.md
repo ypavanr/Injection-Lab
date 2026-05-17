@@ -66,7 +66,7 @@ Infrastructure:
 ### Start
 
 ```bash
-git clone <this-repo>
+git clone [(https://github.com/ypavanr/Injection-Lab.git)]
 cd Injection-Lab
 
 # Start infrastructure + all services
