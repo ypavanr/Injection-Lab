@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "CommonJS",
+    "types": ["node"],
     "declaration": true,
     "outDir": "./dist",
     "strict": true,
@@ -9,5 +10,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["index.ts"]
+  "include": ["index.ts", "prisma/**/*.ts"]
 }
